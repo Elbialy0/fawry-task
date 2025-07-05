@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c6fcb9d5-3222-4d84-85cf-0fa3596de369" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/ShippingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ShippingService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751700474755</updated>
-      <workItem from="1751700476666" duration="11258000" />
+      <workItem from="1751700476666" duration="12145000" />
     </task>
     <servers />
   </component>

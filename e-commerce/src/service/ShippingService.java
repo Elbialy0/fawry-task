@@ -33,6 +33,6 @@ public class ShippingService {
     }
 
     public double getShippingCost() {
-        return totalWeight*30;
+        return totalWeight*3;
     }
 }
