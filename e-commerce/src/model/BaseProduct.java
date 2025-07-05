@@ -51,4 +51,9 @@ public class BaseProduct implements Product {
     public boolean shipping() {
         return false;
     }
+
+    @Override
+    public boolean expirable() {
+        return false;
+    }
 }

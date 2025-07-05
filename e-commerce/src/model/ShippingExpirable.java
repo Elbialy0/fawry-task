@@ -32,4 +32,8 @@ public class ShippingExpirable extends BaseProduct implements Shipping, Expirabl
     public boolean shipping(){
         return true;
     }
+    @Override
+    public boolean expirable(){
+        return true;
+    }
 }

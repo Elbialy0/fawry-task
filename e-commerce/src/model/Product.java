@@ -8,4 +8,5 @@ public interface Product {
     public int getQuantity();
     public void setQuantity(int quantity);
     public boolean shipping();
+    public boolean expirable();
 }

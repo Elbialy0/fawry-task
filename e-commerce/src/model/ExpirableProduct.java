@@ -18,4 +18,8 @@ public class ExpirableProduct extends BaseProduct implements Expirable{
     public void setExpiryDate(LocalDate expiryDate) {
         this.expiryDate = expiryDate;
     }
+    @Override
+    public boolean expirable(){
+        return true;
+    }
 }

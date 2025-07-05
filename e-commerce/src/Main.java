@@ -1,7 +1,4 @@
-import model.BaseProduct;
-import model.Cart;
-import model.Product;
-import model.ShippingNonExpirable;
+import model.*;
 
 
 public class Main {
@@ -12,7 +9,9 @@ public class Main {
 
         Product TV = new ShippingNonExpirable(10 , 50 , "TV",150);
         cart.addProduct(TV, 1);
-        cart.print();
+        Customer customer = new Customer("Mahmoud",500);
+        cart.setCustomer(customer);
+        cart.checkout();
 
     }
 }
